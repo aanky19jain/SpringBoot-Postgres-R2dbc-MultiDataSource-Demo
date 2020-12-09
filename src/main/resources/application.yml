@@ -1,8 +1,17 @@
 server:
-  port: 6000
+  port: 6061
 spring:
   application:
     name: SpringBoot-R2dbc-Postgres
-  r2dbc:
-    url: r2dbc:postgresql://localhost:5432/b008967
-    username: postgres
+    
+macys:
+  commons:
+    datasource:
+      main:
+        url: r2dbc:postgresql://localhost:5432/b008967
+        username: postgres
+        password: postgres
+      test:
+        url: r2dbc:postgresql://localhost:5432/employees
+        username: postgres
+        password: postgres

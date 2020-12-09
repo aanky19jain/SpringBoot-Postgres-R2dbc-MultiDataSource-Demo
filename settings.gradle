@@ -12,4 +12,4 @@ pluginManagement {
 		}
 	}
 }
-rootProject.name = 'SpringBoot-Postgres-R2dbc-Demo'
+rootProject.name = 'SpringBoot-Postgres-R2dbc-MultiDataSource-Demo'
